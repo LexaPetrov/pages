@@ -1,7 +1,8 @@
 body {
 	display: flex;
+	flex-wrap: nowrap;
 	height: 1900px;
-	min-width: 1920px;
+	max-width: 1920px;
 	background: #fff;
 	justify-content: center;
 }
@@ -26,6 +27,12 @@ header .topnav {
 	line-height: 55px;
 }
 
+header .contact-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 header .topnav a {
 	width: 195px;
 	text-decoration: none;
@@ -42,8 +49,6 @@ header .topnav a:hover{
 }
 
 section  {
-	/*display: flex;
-	justify-content: space-between;*/
 	margin-bottom: 68px;
 	text-align: left;
 	align-items: 
@@ -66,26 +71,26 @@ section .under-logo, .under-logo-2 {
 }
 
 section .contacts {
-	/*margin-left: 285px;*/
-	/*margin-right: 345px;*/
 	font-size: 16px;
 	color: #012646;
 	font-weight: bold;
+	text-align: justify;
+	margin-left: 195px;
 }
 
 section .callback {
-	font-size: 16px;
+	font-size: 20px;
 	color: #012646;
 	font-weight: bold;
-	margin-left: 57px;
-	width: 203px;
+	width: 200px;
 }
 
 .callback p{
-	margin-bottom: 15px;
+	margin-bottom: 5px;
+	margin-top: -20px;
 }
 
-#order-callback  {
+.callback button  {
 	background: #fff;
 	font-size: 13px;
 	color: #012646;
@@ -93,4 +98,39 @@ section .callback {
 	height: 30px;
 	width: 200px;
 	border: #04569f 1px solid;
+}
+
+.callback button:hover {
+	background: #3887cf;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	position: fixed;
+    bottom: 0;
+	height: 125px;
+	width: 1140px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+footer .botnav {
+	display: flex;
+	justify-content: space-around;
+	line-height: 105px;
 }
