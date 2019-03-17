@@ -20,18 +20,21 @@
 
 * {
 	font-family: 'Geometria', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-	display: block;
 	height: 1900px;
-	width: 1140px;
-	max-width: 1920px;
 	background: #fff;
-	position: absolute;
-	padding-left: 100px;  
+	text-align: center;		
 }
 
+#container {
+width: 1140px;
+height: 100%; 
+margin: 0 auto; 
+}
 
 header {
 	height: 280px;
@@ -157,7 +160,7 @@ header .under-logo {
 
 
 footer {
-	position: absolute;
+	
     bottom: 0;
 	height: 125px;
 	width: 1140px;
