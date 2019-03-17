@@ -1,22 +1,78 @@
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/Geometria.ttf');
+}
+
+@font-face {
+  font-family: 'Geometria-Heavy';
+  src: url('../fonts/Geometria-Heavy.ttf');
+}
+
+@font-face {
+  font-family: 'Geometria-Bold';
+  src: url('../fonts/Geometria-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Geometria-ExtraBold';
+  src: url('../fonts/Geometria-ExtraBold.ttf');
+}
+
+* {
+	font-family: 'Geometria', sans-serif;
+}
+
 body {
-	display: flex;
-	flex-wrap: nowrap;
+	display: block;
 	height: 1900px;
+	width: 1140px;
 	max-width: 1920px;
 	background: #fff;
-	justify-content: center;
+	position: absolute;
+	padding-left: 100px;  
 }
 
 
 header {
 	height: 280px;
 	width: 1140px;
-	margin: 50px 0px 38px 0px;
+	margin: 50px 0px 0px 0px;
 }
 
 header .header-logo, .contacts, .callback  {
 	display: inline-block;
-	width: 263px;
+	width: 200px;
+}
+
+header .logo {
+	font-family: 'Geometria-Heavy', sans-serif;
+	font-size: 32px;
+	color: #04569f;
+	margin-bottom: 15px;
+}
+
+header .contacts {
+	font-family: 'Geometria-Bold', sans-serif;
+	font-size: 16px;
+	color: #012646;
+	font-weight: bold;
+	text-align: justify;
+	margin-left: 285px;
+	width: 265px;
+}
+
+header .callback {
+	margin-left: 50px;
+}
+
+header .callback  p{
+	font-family: 'Geometria-ExtraBold', sans-serif;
+	font-size: 20px;
+	color: #012646;
+	font-weight: bold;
+	width: 200px;
+	margin-bottom: 5px;
+	margin-top: -10px;
 }
 
 header .topnav {
@@ -51,7 +107,6 @@ header .topnav a:hover{
 section  {
 	margin-bottom: 68px;
 	text-align: left;
-	align-items: 
 }
 
 section .header-logo, .contacts{
@@ -59,35 +114,13 @@ section .header-logo, .contacts{
 
 }
 
-section .logo {
-	font-weight: bold;
-	font-size: 32px;
-	color: #04569f;
-}
-
 section .under-logo, .under-logo-2 {
 	font-size: 13px;
 	margin-top: -20px;
 }
 
-section .contacts {
-	font-size: 16px;
-	color: #012646;
-	font-weight: bold;
-	text-align: justify;
-	margin-left: 195px;
-}
-
-section .callback {
-	font-size: 20px;
-	color: #012646;
-	font-weight: bold;
-	width: 200px;
-}
-
-.callback p{
-	margin-bottom: 5px;
-	margin-top: -20px;
+header .under-logo {
+	margin-bottom: 17px;
 }
 
 .callback button  {
@@ -105,7 +138,10 @@ section .callback {
 	color: #fff;
 }
 
-
+.photoblock img {
+	display: block;
+	width: 1140px;
+}
 
 
 
@@ -134,5 +170,3 @@ footer .botnav {
 	justify-content: space-around;
 	line-height: 105px;
 }
-
-/*8****/
