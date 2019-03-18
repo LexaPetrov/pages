@@ -206,6 +206,49 @@ header .under-logo {
 #brand-icon-2 { margin-top: 16px; margin-left: 50px; height: 21px; width: 75px; }
 #brand-icon-3 { margin-top: 16px; margin-left: 50px; margin-right: 20px; width: 150px; }
 
+.main-content {
+	height: 900px;
+	margin-top: 30px;
+}
+
+.sidebar-1 {
+	height: 74px;
+	background: #04569f;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.sidebar-2 {
+	font-family: 'Geometria-Bold', sans-serif;
+	height: 550px;
+	background: #f4f4f4;
+	text-align: left;
+	list-style-type: none;
+	font-size: 13px;
+	font-weight: bold;
+	color: #888888;
+}
+
+.sidebar-2 li{
+	list-style-type: none;
+	margin: 0px 20px 25px 40px;
+}
+
+.sidebar-nav a {
+	margin-left: 20px;
+	color: #888888;
+}
+
+.sidebar-nav {
+	padding-top: 35px;
+}
+
+.sidebar h1 {
+	font-size: 16px;
+	font-family: 'Geometria-Bold', sans-serif;
+	color: #fff;
+	line-height: 74px;
+}
 
 footer {
     bottom: 0;
