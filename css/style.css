@@ -146,21 +146,68 @@ header .under-logo {
 	width: 1140px;
 }
 
+.clients {
+	height: 84px;
+	margin-top: 23px;
+}
 
+.brands {
+	height: 84px;
+	background: #04569f;
+	width: 278px; 
+}
 
+.brands p {
+	font-size: 14px;
+	font-family: 'Geometria-Bold', sans-serif;
+	color: #fff;
+	text-align: left;
+	padding-left: 50px;
+}
 
+#brand1 {
+	padding-top: 25px;
+}
 
+#brand2 {
+	margin-top: -10px;
+}
 
+.slider {
+	display: inline-block;
+	background: #ecedee;
+	height: 84px;
+	margin-left: -14px;
+	width: 862px;
+}
 
+.slider img {
+	height: 80%;
+	width: 30%;
+}
 
+.slider-button {
+	font-size: 55px;
+	border: none;
+	height: 84px;
+	background: #ecedee;
+	width: 40px;
+	text-align: justify-all;
+	float: left;
+}
+ 
+.slider-button:hover {
+	color: #3887cf;
+}
 
-
-
-
+#button-left { float: left; }
+#button-right {	float: right; }
+#brand-icon-1 {	margin-top: 10px; margin-left: 50px; height: 42px; width: 150px; } 
+#brand-icon-2 { margin-top: 16px; margin-left: 50px; height: 21px; width: 75px; }
+#brand-icon-3 { margin-top: 16px; margin-left: 50px; margin-right: 20px; width: 150px; }
 
 
 footer {
-	
     bottom: 0;
 	height: 125px;
 	width: 1140px;
