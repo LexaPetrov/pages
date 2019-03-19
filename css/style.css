@@ -60,7 +60,8 @@ header .contacts {
 	color: #012646;
 	font-weight: bold;
 	text-align: justify;
-	margin-left: 285px;
+	
+
 	width: 265px;
 }
 
@@ -184,7 +185,7 @@ header .under-logo {
 	width: 862px;
 }
 
-.slider img {
+.slider-img {
 	height: 80%;
 	width: 30%;
 }
@@ -356,7 +357,6 @@ footer .botnav a {
 	justify-content: space-between;
 	background: #04569f;
 	line-height: 55px;
-	margin-top: 500;
 	}
 
 	header .contact-bar {
@@ -384,18 +384,59 @@ footer .botnav a {
 		margin-top: 3px;
 	}
 	
+	.photoblock img {
+		margin-top: 110px;
+		margin-left: -475px;
+	} 
+	
+	.main-content {
+		display: block;
+	}
+
 	.clients {
 		display: block;
 		margin: 0; padding: 0;
 	} 
 
+	.article-content {
+		display: block;
+	}
 
+	.brands {
+		width: 100%;
+		float: left;
+		height: 45px;
 
+	}
+
+	.slider {
+		display: block;
+		width: 100%;
+		margin-left: -475px;
+		margin-top: 50px;
+	}
+
+	.slider-button {
+		display: block;
+		width: 10px;
+	}
 	
+	#button-right {
+		margin-top: -163px;
+	}
+
+	.slider-img {
+		visibility: hidden;
+		display: block;
+		width: 10px;
+		text-align: center;
+	}
+
 	.brands p {
+		margin-top: -20px;
 		margin-left: -30px;
-		text-align: left;
-		font-size: 14px;
+		text-align: center;
+		font-size: 13px;
 	}
 
 	footer .botnav a {

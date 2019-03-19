@@ -41,7 +41,6 @@ var contacts = `
 ВАТСАП ВИБЕР ТЕЛЕГРАМ
 `
 
-
   $(document).ready(function(){
     $("a[href*=#]").on("click", function(e){
         var anchor = $(this);
