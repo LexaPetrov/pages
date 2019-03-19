@@ -11,40 +11,56 @@
 	<script type="text/javascript" src="./jq/jquery.js"></script>
 </head>
 <body>
-	<div id="container">
+	<div class="container">
 			<header>
 			<section class="contact-bar">
-				<div class="header-logo">
-					<p class="logo">КонтрКасса</p>
-					<p class="under-logo">Продажа и обслуживание</p>
-					<p class="under-logo-2">торгово-кассового оборудования</p>
+				<div class="row">
+					<div class="col-sm-3 col-xs-5">
+						<div class="header-logo">
+							<p class="logo">КонтрКасса</p>
+							<p class="under-logo">Продажа и обслуживание</p>
+							<p class="under-logo-2">торгово-кассового оборудования</p>
+						</div>
+					</div>
 				</div>
-				<div class="contacts">
-					<p><img src="./src/img/map-icon.png" alt="map-icon">&ensp;&ensp;г.Оренбург, ул.Неизвестная, 1</p>
-					<p><img src="./src/img/mail-icon.png" alt="mail-icon">&nbsp; kontrkassa@yandex.ru</p>
+				<div class="row">
+					<div class="col-sm-4 col-xs-5">
+						<div class="contacts">
+							<p><img src="./src/img/map-icon.png" alt="map-icon">&ensp;&ensp;г.Оренбург, ул.Неизвестная, 1</p>
+							<p><img src="./src/img/mail-icon.png" alt="mail-icon">&nbsp; kontrkassa@yandex.ru</p>
+						</div>	
+					</div>
 				</div>
-				<div class="callback">
-					<p>8 (3532) 000-000</p>
-					<button>Заказать обратный звонок</button>
-				</div>
+				<div class="row">
+					<div class="col-sm-3 col-xs-5">
+						<div class="callback">
+							<p>8 (3532) 000-000</p>
+							<button>Заказать обратный звонок</button>
+						</div>
+					</div>
+				</div>		
 			</section>
-			<nav>
-				<div class="topnav">
-					<a href="#article" onclick="document.getElementById('article').innerHTML = about">О компании</a>
-					<a href="#article" onclick="document.getElementById('article').innerHTML = services"onclick="document.getElementById('article').innerHTML = services">Услуги</a>
-					<a href="#article"onclick="document.getElementById('article').innerHTML = delivery">Доставка</a>
-					<a href="#article"onclick="document.getElementById('article').innerHTML = garantee">Гарантия</a>
-					<a href="#article"onclick="document.getElementById('article').innerHTML = law54">54-ФЗ</a>
-					<a href="#article"onclick="document.getElementById('article').innerHTML = info">Справочник</a>
-					<a href="#article"onclick="document.getElementById('article').innerHTML = contacts">Контакты</a>
+
+			<div class="row">
+				<div class="col-md-12 col-xs-5">	
+						<div class="topnav">
+							<a href="#article" onclick="document.getElementById('article').innerHTML = about">О компании</a>
+							<a href="#article" onclick="document.getElementById('article').innerHTML = services">Услуги</a>
+							<a href="#article" onclick="document.getElementById('article').innerHTML = delivery">Доставка</a>
+							<a href="#article"onclick="document.getElementById('article').innerHTML = garantee">Гарантия</a>
+							<a href="#article"onclick="document.getElementById('article').innerHTML = law54">54-ФЗ</a>
+							<a href="#article"onclick="document.getElementById('article').innerHTML = info">Справочник</a>
+							<a href="#article"onclick="document.getElementById('article').innerHTML = contacts">Контакты</a>
+						</div>	
 				</div>
-			</nav>
+			</div>
 		</header>
 
 		<main class="content">
-			<div class="photoblock">
-				<div class="row">
-					<div class="col-sm-12 col-xs-6">
+			
+			<div class="row">
+				<div class="col-sm-12 col-xs-5">
+					<div class="photoblock">
 						<img src="src/img/block.png" alt="phooblock">
 					</div>
 				</div>
@@ -52,7 +68,7 @@
 
 			<div class="main-content">
 				<div class="row">
-					<div class="col-sm-3 col-xs-4" >
+					<div class="col-sm-3 col-xs-5" >
 						<sidebar class="sidebar">
 							<div class="sidebar-1">
 								<h1>Каталог товаров</h1>
@@ -77,11 +93,10 @@
 				</div>
 					
 				<div class="row">
-					<div class="col-sm-9">
+					<div class="col-sm-9 col-xs-5">
 						<div class="article-content">
 							<div class="bread-crumbs">Главная / </div>
 							<div class="article" id="article">
-							
 							<h1>О компании</h1>
 							<p>Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности способствует подготовке и реализации системы масштабного изменения ряда параметров. Значимость этих проблем настолько очевидна, что новая модель организационной деятельности в значительной степени обуславливает создание существующих финансовых и административных условий. С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации направлений прогрессивного развития?
 							<p>Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь представляет собой интересный эксперимент проверки направлений прогрессивного развития. Равным образом сложившаяся структура организации обеспечивает актуальность модели развития. Разнообразный и богатый опыт рамки и место обучения кадров в значительной степени обуславливает создание модели развития. Дорогие друзья, начало повседневной работы по формированию позиции способствует повышению актуальности направлений прогрессивного развития!
@@ -102,15 +117,16 @@
 			</div>
 
 
-			<div class="clients">
+			
 				<div class="row">
-					<div class="col-sm-3 col-xs-1">
-						<div class="brands">
-							<p id="brand1">Бренды обслуживаемого</p>
-							<p id="brand2">оборудования</p>
+					<div class="clients">
+						<div class="col-sm-3 col-xs-5">
+							<div class="brands">
+								<p id="brand1">Бренды обслуживаемого</p>
+								<p id="brand2">оборудования</p>
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-9 col-xs-2">
+					<div class="col-sm-9 col-xs-5">
 						<div class="slider">
 							<button class="slider-button" id="">🢐</button>
 							<img src="src/img/brand-icon-1.png" alt="brand-icon-1" id="brand-icon-1">
@@ -120,13 +136,14 @@
 						</div>
 					</div>
 				</div>
-			</div>
+					
+				</div>
+		
 		</main>
 		
 		<footer>
-			<div class="wrapper">
 				<div class="row">
-					<div class="col-sm-12 col-xs-6 ">
+					<div class="col-sm-12 col-xs-5">
 						<div class=botnav>
 							<a href="#article" onclick="document.getElementById('article').innerHTML = about">О компании</a>
 							<a href="#article" onclick="document.getElementById('article').innerHTML = services"onclick="document.getElementById('article').innerHTML = services">Услуги</a>
@@ -138,7 +155,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 		</footer>
 	</div>
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>

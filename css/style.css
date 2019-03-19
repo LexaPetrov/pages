@@ -25,12 +25,12 @@
 }
 
 body {
-	height: 1900px;
+	/*height: 1900px;*/
 	background: #fff;
 	text-align: center;		
 }
 
-#container {
+.container {
 width: 1140px;
 height: 100%; 
 margin: 0 auto; 
@@ -38,7 +38,7 @@ margin: 0 auto;
 
 header {
 	height: 280px;
-	width: 1140px;
+	width: 100%;
 	margin: 50px 0px 0px 0px;
 }
 
@@ -82,7 +82,7 @@ header .topnav {
 	display: flex;
 	justify-content: space-between;
 	background: #04569f;
-	height: 60px;
+	height: 100%;
 	line-height: 55px;
 }
 
@@ -129,8 +129,8 @@ header .under-logo {
 .callback button  {
 	background: #fff;
 	font-size: 13px;
-	color: #012646;
-	font-weight: lighter;
+	color: #012646
+;	font-weight: lighter;
 	height: 30px;
 	width: 200px;
 	border: #04569f 1px solid;
@@ -143,10 +143,13 @@ header .under-logo {
 
 .photoblock img {
 	display: block;
-	width: 1140px;
+	width: 100%;
+	height: 100%;
 }
 
 .clients {
+	display: block;
+	width: 100%;
 	height: 84px;
 	margin-top: 23px;
 }
@@ -210,6 +213,11 @@ header .under-logo {
 	display: inline;
 	height: 900px;
 	margin-top: 30px;
+}
+
+.sidebar {
+	display: inline-block;
+	width: 100%;
 }
 
 .sidebar-1 {
@@ -292,13 +300,107 @@ header .under-logo {
 footer {
     bottom: 0;
 	height: 125px;
-	width: 1140px;
+	width: 100%;
 	font-size: 16px;
 	font-weight: bold;
 }
 
 footer .botnav {
-	display: flex;
-	justify-content: space-around;
+	display: inline-block;
+	position: relative;
+	text-align: justify;
 	line-height: 105px;
+}
+
+footer .botnav a {
+	display: inline-block;
+	position: relative;
+	text-align: justify;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************/
+
+
+
+
+
+
+
+@media screen and (max-width: 960px){
+	
+	header .logo {
+	font-family: 'Geometria-Heavy', sans-serif;
+	font-size:22px;
+	color: #04569f;
+	margin-bottom: 15px;
+	}
+	
+	header .topnav {
+	display: block;
+	justify-content: space-between;
+	background: #04569f;
+	line-height: 55px;
+	margin-top: 500;
+	}
+
+	header .contact-bar {
+		display: block;
+	}
+
+	header .header-logo {
+		margin-left: 25%;
+	}
+
+	header .contacts {
+		margin-left: 25%;
+		font-size: 12px;
+		margin-top: 3px;
+	}
+
+	header .callback {
+		display: block;
+		margin-left: 25%;
+		font-size: 12px;
+	}
+
+	header .callback p, button{
+		font-size: 12px;
+		margin-top: 3px;
+	}
+	
+	.clients {
+		display: block;
+		margin: 0; padding: 0;
+	} 
+
+
+
+	
+	.brands p {
+		margin-left: -30px;
+		text-align: left;
+		font-size: 14px;
+	}
+
+	footer .botnav a {
+		display: block;
+		margin-top: -40px;
+		margin-bottom: -70px;
+	}
 }
