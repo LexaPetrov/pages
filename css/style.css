@@ -25,7 +25,6 @@
 }
 
 body {
-	/*height: 1900px;*/
 	background: #fff;
 	text-align: center;		
 }
@@ -130,8 +129,8 @@ header .under-logo {
 .callback button  {
 	background: #fff;
 	font-size: 13px;
-	color: #012646
-;	font-weight: lighter;
+	color: #012646;
+	font-weight: lighter;
 	height: 30px;
 	width: 200px;
 	border: #04569f 1px solid;
@@ -191,7 +190,7 @@ header .under-logo {
 }
 
 .slider-button {
-	font-size: 55px;
+	font-size: 15px;
 	border: none;
 	height: 84px;
 	background: #ecedee;
@@ -343,8 +342,12 @@ footer .botnav a {
 
 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 767px){
 	
+	.main-content {
+		visibility: hidden;
+	}
+
 	header .logo {
 	font-family: 'Geometria-Heavy', sans-serif;
 	font-size:22px;
@@ -443,5 +446,51 @@ footer .botnav a {
 		display: block;
 		margin-top: -40px;
 		margin-bottom: -70px;
+	}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+	
+	body {
+		display: block;
+		text-align: center;
+	}
+
+	.contact-bar {
+		margin-bottom: -5px;
+	}
+	
+	header .contacts {
+		margin-left: -100px;
+		font-size: 12px;
+		margin-top: 3px;
+	}
+	
+	.header-logo {
+		margin-left: 5px;
+	}
+
+	header .callback {
+		margin-right: 15px;
+	}
+
+	.photoblock img {
+		width: 700px;
+		margin-top: -130px;
+		margin-left: 5px;
+	} 
+
+	header .topnav {
+	display: block;
+	justify-content: space-between;
+	background: #04569f;
+	line-height: 55px;
+	margin-left: 5px;
+	width: 700px;
+	}
+
+	header .topnav a {
+		margin-left: 10px;
 	}
 }
