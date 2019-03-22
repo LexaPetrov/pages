@@ -24,6 +24,11 @@
 	padding: 0;
 }
 
+.topnav .icon{
+	display: none;
+}
+
+
 body {
 	background: #fff;
 	text-align: center;		
@@ -370,6 +375,8 @@ footer .botnav a {
 
 @media screen and (max-width: 767px){
 	
+
+
 	header .logo {
 	font-family: 'Geometria-Heavy', sans-serif;
 	font-size:22px;
@@ -377,40 +384,99 @@ footer .botnav a {
 	margin-bottom: 15px;
 	}
 	
+	.topnav a.icon{
+		float: right;
+		display: block;
+		color: #fff;
+		font-size: 25px;
+	}
+	
+	header .topnav.responsive {
+		height: 255px;
+		display: block;
+		text-align: center;
+		width: 100%;
+		order: 1;
+	}
+	.topnav.responsive a.icon {
+		display: block;
+		position: sticky;
+		width: 100%;
+		margin-top: 25px;
+	}
+	
+	/*#wrapper   { display: table; }
+	#mytopNav  { display: table-footer-group; }*/
+
+	/*header {
+		display: flex;
+		flex-flow: wrap;
+	}
+		
+	.topnav { order: 0; }
+	.callback { order: 3;}	
+	.contacts { order: 2;}
+	.contact-bar { order: 1;}	*/
+	
+	.topnav.responsive a {
+			display: block;
+			text-align: center;
+			width: 100%;
+			margin-bottom: -30px;
+			visibility: visible;
+		}
+
+	
+
 	body {
-		width: 470px;
+		width: 100%;
+		max-width: 500px;
+		overflow-x: hidden;
+		text-align: center;
 	}
 
 	* {
 		margin: 0;
 		padding: 0;
-
 	}
 
-/*	.container {
-		width: 480px;
-	}*/
+	.container {
+		min-width: 480px;
+	}
 
 	header .topnav {
 	display: block;
+	position: sticky;
+	top: 0;
 	justify-content: space-between;
 	background: #04569f;
 	line-height: 55px;
-	margin-top: -50px;
+	margin-top: -350px;
+	height: 55px;
 	}
 
-
+	.topnav a {
+		visibility: hidden;
+	}
 	
+	.topnav a.icon {
+		visibility: visible;
+		
+		display: block;
+		width: 445px;
+		margin-top: -112px;
+	}
+
 	header .contact-bar {
 		display: block;
 	}
 
 	header .header-logo {
-		margin-left: 25%;
+		margin-left: 45%;
 	}
 
 	header .contacts {
-		margin-left: 25%;
+		margin-left: 71%;
 		font-size: 12px;
 		margin-top: 3px;
 	}
@@ -426,9 +492,8 @@ footer .botnav a {
 		margin-top: 3px;
 	}
 	
-	.photoblock img {
-		margin-top: 50px;
-		margin-left: -475px;
+	.photoblock  {
+		margin-top: -30px;
 	} 
 	
 	.main-content {
@@ -663,6 +728,10 @@ footer .botnav a {
 
 	.sidebar-2 img {
 		visibility: visible;
+		float: left;
+		margin-left: 10px;
+		margin-right: -8px;
+		height: 15px;width: 15px;
 	}
 	
 	.sidebar-2  {

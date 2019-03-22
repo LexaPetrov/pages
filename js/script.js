@@ -1,3 +1,13 @@
+function myFunction() {
+	var x = document.getElementById('mytopNav');
+	if (x.className === "topnav"){
+		x.className += " responsive";
+	} else {
+		x.className = "topnav";
+	}
+}
+
+
 var about = `
 <div class="bread-crumbs">Главная / О компании </div>
 <h1>О компании</h1>
@@ -58,3 +68,4 @@ var contacts = `
         return false;
     });
 });
+
