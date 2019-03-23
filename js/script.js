@@ -8,6 +8,15 @@ function myFunction() {
 }
 
 
+function myFunction1() {
+	var x = document.getElementById('side');
+	if (x.className === "sidebar"){
+		x.className += " responsive";
+	} else {
+		x.className = "sidebar";
+	}
+}
+
 var about = `
 <div class="bread-crumbs">Главная / О компании </div>
 <h1>О компании</h1>

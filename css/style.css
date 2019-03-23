@@ -28,6 +28,9 @@
 	display: none;
 }
 
+.sidebar .side-icon{
+	display: none;
+}
 
 body {
 	background: #fff;
@@ -64,8 +67,6 @@ header .contacts {
 	color: #012646;
 	font-weight: bold;
 	text-align: justify;
-	
-
 	width: 265px;
 }
 
@@ -146,6 +147,10 @@ header .under-logo {
 	color: #fff;
 }
 
+.photoblock {
+	margin-top: -36px;
+}
+
 .photoblock img {
 	display: block;
 	width: 100%;
@@ -199,17 +204,19 @@ header .under-logo {
 	border: none;
 	height: 84px;
 	background: #ecedee;
+	color: #888888;
 	width: 40px;
 	text-align: justify-all;
 	float: left;
+	padding-left: 4%;
 }
  
 .slider-button:hover {
 	color: #3887cf;
 }
 
-#button-left { float: left; }
-#button-right {	float: right; }
+#button-left { float: left;}
+#button-right {	float: right; padding-right: 5%;}
 #brand-icon-1 {	margin-top: 10px; margin-left: 50px; height: 42px; width: 150px; } 
 #brand-icon-2 { margin-top: 16px; margin-left: 50px; height: 21px; width: 75px; }
 #brand-icon-3 { margin-top: 16px; margin-left: 50px; margin-right: 20px; width: 150px; }
@@ -281,8 +288,7 @@ header .under-logo {
 
 .article-content {
 	margin-top: 20px;
-	/*margin-left: -120px;*/
-/*	margin-top: -625px; */ 
+	margin-left: 2%;
 }
 
 .article-content h1 {
@@ -361,12 +367,15 @@ footer .botnav a {
 
 	.brands {
 		line-height: 1;
-		width: 100%;
+		width: 131%;
 	}
 
 	.slider {
-		width: 100%;
+		padding-left: 10px;
+		width: 99%;
+		margin-left: 5%;
 	}
+
 }
 
 
@@ -376,62 +385,8 @@ footer .botnav a {
 @media screen and (max-width: 767px){
 	
 
-
-	header .logo {
-	font-family: 'Geometria-Heavy', sans-serif;
-	font-size:22px;
-	color: #04569f;
-	margin-bottom: 15px;
-	}
-	
-	.topnav a.icon{
-		float: right;
-		display: block;
-		color: #fff;
-		font-size: 25px;
-	}
-	
-	header .topnav.responsive {
-		height: 255px;
-		display: block;
-		text-align: center;
-		width: 100%;
-		order: 1;
-	}
-	.topnav.responsive a.icon {
-		display: block;
-		position: sticky;
-		width: 100%;
-		margin-top: 25px;
-	}
-	
-	/*#wrapper   { display: table; }
-	#mytopNav  { display: table-footer-group; }*/
-
-	/*header {
-		display: flex;
-		flex-flow: wrap;
-	}
-		
-	.topnav { order: 0; }
-	.callback { order: 3;}	
-	.contacts { order: 2;}
-	.contact-bar { order: 1;}	*/
-	
-	.topnav.responsive a {
-			display: block;
-			text-align: center;
-			width: 100%;
-			margin-bottom: -30px;
-			visibility: visible;
-		}
-
-	
-
 	body {
 		width: 100%;
-		max-width: 500px;
-		overflow-x: hidden;
 		text-align: center;
 	}
 
@@ -441,18 +396,48 @@ footer .botnav a {
 	}
 
 	.container {
-		min-width: 480px;
+		max-width: 100%;
 	}
+
+	header .logo {
+	font-family: 'Geometria-Heavy', sans-serif;
+	font-size:22px;
+	color: #04569f;
+	margin-bottom: 15px;
+	}
+
+	header .topnav.responsive {
+		height: 200px;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.topnav.responsive a.icon {
+		display: block;
+		position: sticky;
+		width: 100%;
+		margin-top: 15px;
+		margin-left: 100px;
+	}
+	
+	.topnav.responsive a {
+			display: block;
+			text-align: center;
+			width: 100%;
+			margin-bottom: -30px;
+			visibility: visible;
+		}
+
 
 	header .topnav {
 	display: block;
-	position: sticky;
+	position: relative;
 	top: 0;
 	justify-content: space-between;
 	background: #04569f;
-	line-height: 55px;
-	margin-top: -350px;
-	height: 55px;
+	line-height: 50px;
+	margin-top: -310px;
+	height: 40px;
 	}
 
 	.topnav a {
@@ -461,29 +446,36 @@ footer .botnav a {
 	
 	.topnav a.icon {
 		visibility: visible;
-		
 		display: block;
-		width: 445px;
-		margin-top: -112px;
+		width: 100%;
+		padding-top: -10%;
+		float: right;
+		display: block;
+		color: #fff;
+		font-size: 25px;
+		position: absolute;
+		top: 0;
 	}
 
 	header .contact-bar {
 		display: block;
+
 	}
 
 	header .header-logo {
-		margin-left: 45%;
+		margin-left: 150%;
+		margin-top: 5px;
 	}
 
 	header .contacts {
-		margin-left: 71%;
+		margin-left: 30%;
 		font-size: 12px;
 		margin-top: 3px;
 	}
 
 	header .callback {
 		display: block;
-		margin-left: 25%;
+		margin-left: 30%;
 		font-size: 12px;
 	}
 
@@ -493,12 +485,10 @@ footer .botnav a {
 	}
 	
 	.photoblock  {
-		margin-top: -30px;
+		margin-top: -80px;
+		margin-bottom: 30px;
 	} 
 	
-	.main-content {
-		display: block;
-	}
 	
 	.sidebar-1, .sidebar-2 {
 		width: 100%;
@@ -521,7 +511,7 @@ footer .botnav a {
 	
 	.sidebar-2  {
 		padding: 5px;
-		height: 120px;
+		height: 15%;
 	}
 
 	.sidebar-2 ol {
@@ -541,22 +531,14 @@ footer .botnav a {
 		margin: 0;
 	}
 
-	/*.sidebar-2 .new-line {
-		display: block;
-		line-height: 25px;
-	}*/
 	.article {
 		display: block;
-		position: relative;
+		width: 100px;
 	}
 
-
 	.article-content {
-		
-		width: 445px;
+		width: 100%;
 		display: block;
-		margin-left: -475px;
-		margin-top: 130px;
 	}
 	
 	.article {
@@ -584,20 +566,21 @@ footer .botnav a {
 	.brands {
 		width: 100%;
 		float: left;
-		height: 45px;
-
+		height: 10%;
 	}
 
 	.slider {
 		display: block;
 		width: 100%;
-		margin-left: -475px;
-		margin-top: 50px;
+		margin-top: 10px;
+		margin-left: 1px;
 	}
 
 	.slider-button {
 		display: block;
 		width: 10px;
+		padding-right: 20px;
+		padding-left: 5px;
 	}
 	
 	.slider-img {
@@ -620,14 +603,6 @@ footer .botnav a {
 		margin-bottom: -90px;
 	}
 
-	/** {margin: 0; padding: 0;} 
-	body {
-	text-align: center; 
-
-	}
-	.container {
-	margin: 0 auto; 
-	}*/
 	.slider {
 		display: block;
 		position: relative;
@@ -637,12 +612,12 @@ footer .botnav a {
 	.slider .slider-img{
 		margin: 0px;
 		padding: 0px;
-		width: 50px;
+		width: 40px;
 	}
 
 	#brand-icon-1 {
 		margin-top: 0;
-		margin-left: 0;
+		margin-left: -5px;
 		height: 30px;
 		display: inline-block;
 	}
@@ -655,7 +630,8 @@ footer .botnav a {
 
 	#brand-icon-3 {
 		margin-top: 10px;
-		margin-left: 5px;
+		margin-left: 3px;
+		margin-right: -10px;
 		display: inline-block;
 	}
 
@@ -663,10 +639,65 @@ footer .botnav a {
 		display: inline-block;
 		margin: 0;
 	}
+
+	.sidebar a.side-icon {
+		visibility: visible;
+		display: block;
+		width: 100%;
+		margin-top: -4%;
+		margin-left: -5%;
+		display: block;
+		color: #fff;
+		padding-top: 1px;
+		padding-right: 30%;
+		font-size: 25px;
+		vertical-align: middle;
+		position: absolute;
+		top: 0;
+	}
+
+	.sidebar a, .sidebar-2 {
+		visibility: hidden;
+		margin-bottom: -40%;
+	}
+
+	.sidebar.responsive .sidebar-2 {
+		visibility: visible;
+		display: block;
+		text-align: center;
+		margin-bottom: 0%;
+	}
+
+	.sidebar.responsive .sidebar-2 a{
+		margin-bottom: 0px;
+	}
+
+	.sidebar.responsive .sidebar-2 img{
+		visibility: visible;
+		margin-right: 1%;
+	}
+
+	.sidebar.responsive {
+		height: 1%;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.sidebar.responsive .side-icon {
+		display: block;
+	}
+	
+	.sidebar.responsive .sidebar-nav li a {
+			visibility: visible;
+			display: block;
+			text-align: center;
+			line-height: 0;
+		
+	}
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	
 	body {
 		display: block;
@@ -761,15 +792,10 @@ footer .botnav a {
 		margin-bottom: 1px;
 	}
 
-	/*.sidebar-2 .new-line {
-		display: block;
-		line-height: 25px;
-	}*/
-	
 	.article-content {
 		display: block;
 		position: relative;
-		width: 518px;
+		width: 100%;
 	}
 	
 	.article {
@@ -787,7 +813,7 @@ footer .botnav a {
 	}
 
 	.clients {
-		width: 750px;
+		width: 100%;
 	}
 	
 	.brands {
@@ -805,6 +831,7 @@ footer .botnav a {
 		display: inline-block;
 		position: relative;
 		width: 100%;
+		margin-left: -5%;
 	}
 
 	.slider .slider-img{
