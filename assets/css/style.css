@@ -84,7 +84,7 @@ header .callback  p{
 	color: #012646;
 	font-weight: bold;
 	width: 200px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 	margin-top: -10px;
 }
 
@@ -136,17 +136,20 @@ header .under-logo {
 	margin-bottom: 17px;
 }
 
-.callback button  {
+.callback a  {
 	background: #fff;
 	font-size: 13px;
 	color: #012646;
-	font-weight: lighter;
-	height: 30px;
-	width: 200px;
+	font-weight: bolder;
+	height: 29px;
+	width: 198px;
 	border: #04569f 1px solid;
+	padding: 9px 9px;
+	padding-top: 7px;
+	margin-top: 15px;
 }
 
-.callback button:hover {
+.callback a:hover {
 	background: #3887cf;
 	color: #fff;
 }
@@ -431,7 +434,10 @@ footer .botnav a {
 			margin-bottom: -30px;
 			visibility: visible;
 		}
-
+	
+	.topnav.responsive a:hover {
+			background: none;
+		}
 
 	header .topnav {
 	display: block;
