@@ -66,7 +66,7 @@ header .logo {
 }
 
 header .contacts {
-	font-family: 'Geometria-Bold', sans-serif;
+	font-family: 'Geometria-ExtraBold', sans-serif;
 	font-size: 16px;
 	font-weight: 900;
 	color: #012646;
@@ -675,13 +675,18 @@ footer .botnav a:hover {
 		font-size: 13px;
 	}
 
-	footer .botnav a {
+	footer .botnav  {
 		display: block;
 		font-size: 11px;
-		margin-top: -40px;
-		margin-bottom: -90px;
+		height: 100%;
+		text-align: center;
 	}
 
+	footer .botnav a {
+		margin: 0px 0px;
+		padding-right: 10px;
+	}
+	
 	.slider {
 		display: block;
 		position: relative;
@@ -958,10 +963,15 @@ footer .botnav a:hover {
 		display: inline-block;
 	}
 
-	footer .botnav a {
-		font-size: 13px;
+	footer .botnav  {
 		display: block;
-		margin-top: -40px;
-		margin-bottom: -90px;
+		font-size: 11px;
+		height: 100%;
+		text-align: center;
+	}
+
+	footer .botnav a {
+		margin: 0px 0px;
+		padding-right: 10px;
 	}
 }
