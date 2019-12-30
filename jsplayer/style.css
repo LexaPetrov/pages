@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Roboto-rehular', sans-serif;
+    src: url('./Roboto-Regular.ttf');
+}
+
+body {
+    font-family: "Roboto-rehular", sans-serif;
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 550px;
+}
+
+.player {
+    padding: 10px;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 2px #404040;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pause {
+    display: none;
+}
+
+.icon img {
+    height: 25px;
+    width: 25px;
+    
+}
+
+.volumeInput{
+    width: 50px;
+    padding: 0;
+    /* opacity: 0; */
+     /* visibility: hidden; */
+     transition: .5s;
+    display: none;
+}
+
+.controlsVolume:hover input{
+    display: inline;
+    /* opacity: 1; visibility: visible; */
+}
+
+.controlsSpeed {
+    width: 30px;
+}
+
+.controlsSpeed select:hover {
+   cursor: pointer;
+   opacity: .7;
+}
+
+.controlsSpeed select {
+    max-width: 100%;
+    border:none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: none;
+    outline: none;
+}
+
+.progressbar {
+    width: 200px;
+}
+
+.progressbar progress {
+    width: 100%;
+}
+
+#play, .play {
+    display: block;
+}
+
+.title {
+    color: #cc64b7;
+    font-weight: bolder ;
+}
+
+.controlsPlay:hover, 
+.controlsDownload:hover,
+.controlsUpload:hover,
+.controlsVolume a:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* #ffffff 
+#404040 
+#08f 
+#cc64b7  */
