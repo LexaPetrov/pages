@@ -134,10 +134,10 @@ const Play = _id => {
   progressBar.addEventListener("click", e => Rewind(_id, e));
 };
 //render call
-for (let i = 0; i < songs.length; i++) {
+for (let i = 0; i < songs.length - 1; i++) {
   Render(i, "container");
 }
-Render(3, "renderHere");
+Render(5, "renderHere");
 
 document.addEventListener("DOMContentLoaded", function(event) {
   for (let i = 0; i < songs.length; i++) {
