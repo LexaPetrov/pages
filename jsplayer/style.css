@@ -20,18 +20,20 @@ small {
 .player {
     padding: 10px;
     display: flex;
-    max-width: 95%;
+    max-width: 550px;
     flex-direction: column;
     justify-content: center;
     box-shadow: 0px 0px 10px 2px #404040;
     border-radius: 10px;
     margin-top: 20px;
+    box-sizing: border-box;
 }
 .controls {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 .pause {
@@ -61,6 +63,7 @@ small {
 
 .controlsSpeed {
     width: 35px;
+   
 }
 
 .controlsSpeed select:hover {
@@ -75,6 +78,7 @@ small {
     appearance: none;
     background: none;
     outline: none;
+    /* font-size: 10px; */
 }
 
 .progressbar {
@@ -92,6 +96,11 @@ small {
 .title {
     color: #cc64b7;
     font-weight: bolder ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 .controlsPlay:hover, 

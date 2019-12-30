@@ -1,11 +1,15 @@
 let songs = JSON.parse(JSON.stringify(data))
 console.log("Всего треков: ", songs.length)
 //render declaration
-const Render = (_id) => {
+const Render = (_id, divToRender) => {
   let i = _id
   if (songs[i].isToRender) {
     let div = `<div class="player">`
-    div += `<div><p id="title${i}" class="title">${songs[i].title}</p></div>`
+    div += `<div class="title"><p id="title${i}" >${songs[i].title}</p> <div class="controlsUpload">
+    <a class='icon upload' title='Загрузить трек' href='javascript: void(0)' onclick="Upload()">
+        <img src="img/upload.png" alt="upload_img">
+    </a>
+    </div></div>`
     div += `<audio id='audio${i}' src="${songs[i].link}" preload="auto"></audio>`
     div += `<div class="controls">`
     div += `<div class="controlsPlay">
@@ -41,14 +45,10 @@ const Render = (_id) => {
                       <img src="img/download.png" alt="download_img">
                   </a>
                   </div>
-                  <div class="controlsUpload">
-                  <a class='icon upload' title='Загрузить трек' href='javascript: void(0)' onclick="Upload()">
-                      <img src="img/upload.png" alt="upload_img">
-                  </a>
-                  </div>`
+                  `
     div += `</div>`
     div += `</div>`
-    document.getElementById("container").innerHTML += div;
+    document.getElementById(divToRender.toString()).innerHTML += div;
     window['audio' + i] = document.getElementById(`audio${i}`)
     window['audio' + i].src = `${songs[i].link}`
   }
@@ -96,8 +96,8 @@ const Play = (_id) => {
 }
 //render call
 for (let i = 0; i < songs.length; i++) {
-  Render(i)
+  Render(i, "container")
 }
 
-
+Render(2, "renderHere")
 
