@@ -17,7 +17,12 @@ progress[value] {
       height: 22px;
   }
 
-  progress[value]::-webkit-progress-value,  progress[value]::-moz-progress-bar {
+  progress[value]::-webkit-progress-value {
     background-color:#cc64b7;
+    color: #cc64b7; 
   }
 
+  progress[value]::-moz-progress-bar {
+    background-color:#cc64b7;
+    color: #cc64b7; 
+  }

@@ -12,17 +12,30 @@
     <script src="data.js"></script>
 </head>
 <body>
-    di_v id="container" =>>  Render(i, "container") ↓↓↓
+    Как я понял по заданию, нужен плеер для 1 дорожки, без плейлиста и тд. 
+    Подходит для радиостанции, подкаст залить например.
+    Как хранятся дорожки:
+    <p>
+        data.js:
+        let data = [
+    {
+        id: 0,
+        title: 'TrackName',
+        link: 'audio/songname.mp3',
+        isToRender: 0
+    }, ....]
+    </p> <br>
+    Добавление в блок: div id="container" =>>  Render(i, "container") ↓↓↓
     <div class="container" id="container">
          
     </div>
-
+    <hr>
     <div>
-        di_v id="renderHere" =>>  Render(2, "renderHere") ↓↓↓
+        Добавление в другой блок: div id="renderHere" =>>  Render(2, "renderHere") ↓↓↓
     <div>
-
-    <div id="renderHere">
-
+        <hr>
+    <div id="renderHere" style="margin: 0 auto; align-self: center; display: flex; justify-content: center; flex-direction: column;">
+        
     </div>
 </body>
 <script src="script.js"></script>
