@@ -10,13 +10,13 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 550px;
+    max-width: 550px;
 }
 
 .player {
     padding: 10px;
     display: flex;
-    max-width: 100%;
+    max-width: 95%;
     flex-direction: column;
     justify-content: center;
     box-shadow: 0px 0px 10px 2px #404040;
@@ -35,8 +35,8 @@ body {
 }
 
 .icon img {
-    height: 25px;
-    width: 25px;
+    max-height: 25px;
+    max-width: 25px;
     
 }
 
@@ -75,7 +75,8 @@ body {
 }
 
 .progressbar {
-    width: 170px;
+    min-width: 50px;
+    max-width: 170px;
 }
 
 .progressbar progress {
