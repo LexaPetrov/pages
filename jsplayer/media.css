@@ -1,0 +1,27 @@
+@media screen and (max-width: 440px) {
+    .progressbar {
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .icon img {
+        max-height: 20px;
+        max-width: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 325px) {
+    .icon img {
+        max-height: 15px;
+        max-width: 15px;
+    }
+    .progressbar {
+        max-width: 80px;
+    }
+
+    .controlsSpeed select {
+      font-size: 12px;
+    }
+}

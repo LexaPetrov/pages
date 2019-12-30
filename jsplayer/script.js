@@ -23,7 +23,7 @@ const Render = (_id) => {
                   <a class='icon volume' onclick="Mute(${songs[i].id});">
                       <img src="img/volume.png" alt="volume_img">
                   </a>
-                  <input type='range' value='100' max='100' title='Громкость' id={volumeInput${i}} class='volumeInput'>
+                  <input type='range' value='100' max='100' title='Громкость' id='volumeInput${i}' class='volumeInput'>
                   </div>`
     div += `<div class="controlsSpeed">
                   <select title='Скорость' id='controlsSpeedSelect${i}'>
