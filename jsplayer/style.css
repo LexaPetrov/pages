@@ -12,6 +12,10 @@ small {
     font-size: 10px;
 }
 
+.controlsPlay a {
+    margin-top: 5px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 550px;
