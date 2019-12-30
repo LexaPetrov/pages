@@ -21,6 +21,6 @@ let data = [
         id: 3,
         title: 'Tadssddsdshe White Stripes - Seven Nation Army',
         link: 'audio/The White Stripes - Seven Nation Army.mp3',
-        isToRender: 1
+        isToRender: 0
     }
 ]

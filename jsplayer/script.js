@@ -51,19 +51,18 @@ const Render = (_id) => {
     document.getElementById("container").innerHTML += div;
     window['audio' + i] = document.getElementById(`audio${i}`)
     window['audio' + i].src = `${songs[i].link}`
-    
   }
 }
 //Normalize Time
 const NormalDuration = (time) => {
-  time = Math.floor(time);
-  let min = Math.floor(time / 60);
-  let sec = Math.floor(time - min * 60);
-  let minValue = min;
-  let secValue = sec;
-  (min < 10) ? (minValue = '0' + min) : null;
-  (sec < 10) ? (secValue = '0' + sec) : null;
-  return minValue.toString() + ':' + secValue.toString();
+  time = Math.floor(time)
+  let min = Math.floor(time / 60)
+  let sec = Math.floor(time - min * 60)
+  let minValue = min
+  let secValue = sec
+  min < 10 ? (minValue = '0' + min) : null
+  sec < 10 ? (secValue = '0' + sec) : null
+  return minValue.toString() + ':' + secValue.toString()
 }
 //PropgressBar
 const Progress = (_id) => {

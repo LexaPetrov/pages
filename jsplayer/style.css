@@ -41,17 +41,19 @@ body {
 }
 
 .volumeInput{
-    width: 50px;
+    width: 0px;
     padding: 0;
-    /* opacity: 0; */
+    opacity: 0;
      /* visibility: hidden; */
      transition: .5s;
-    display: none;
+    /* display: none; */
 }
 
 .controlsVolume:hover input{
-    display: inline;
-    /* opacity: 1; visibility: visible; */
+    /* display: inline;     */
+    width: 50px;
+    opacity: 1; 
+    /* visibility: visible; */ 
 }
 
 .controlsSpeed {
@@ -73,7 +75,7 @@ body {
 }
 
 .progressbar {
-    width: 200px;
+    width: 170px;
 }
 
 .progressbar progress {
