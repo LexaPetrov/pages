@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Lato-Bold', sans-serif;
+    src: url('./src/fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./src/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular', sans-serif;
+    src: url('./src/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Medium';
+    src: url('./src/fonts/Lato-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'ChinaCyr-Regular';
+    src: url('./src/fonts/ChinaCyr-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('./src/fonts/Lato-Black.ttf');
+}

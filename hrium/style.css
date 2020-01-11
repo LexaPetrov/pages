@@ -1,0 +1,248 @@
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #fff;
+}
+
+header {
+    background-image: url('./src/img/headerBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.logoText {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Lato-Regular';
+    padding-left: 248px;
+}
+
+.logoWrapper {
+    width: 100%;
+    display: flex;
+}
+
+.headerContentWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerTextContent {
+    text-align: center;
+}
+
+.headerTextContent1 {
+    font-family: 'Lato-Black', sans-serif;
+    color: #fff;
+    font-size: 55px;
+}
+
+.headerTextContent2 {
+    font-size: 60px;
+    color: #FAD264;
+    font-family: 'ChinaCyr-Regular';
+}
+
+.headerTextContent2 span {
+    color: #fff;
+}
+
+.headerTextContent3,
+.headerTextContent4,
+.headerTextContent5,
+.headerTextContent6 {
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+    color: #fff;
+}
+
+.headerTextContent4 {
+    color: #FAD264;
+}
+
+.headerDivider {
+    font-size: 20px;
+    color: #1f1e1e;
+    font-family: 'Lato-Regular';
+    text-transform: uppercase;
+    background-color: #FAD264;
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.selfTrainingPlus {
+    background: #EBEBEB;
+    padding-top: 70px;
+    padding-bottom: 60px;
+   
+}
+
+.selfTrainingPlusTitle {
+    font-family: 'Lato-Medium';
+    font-size: 35px;
+    color: #4b4949;
+    text-align: center;
+    width: 100%;
+}
+
+.selfTrainingPlusTitle span {
+    color: #e20505;
+}
+
+.selfTrainingPlusItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.selfTrainingPlusItems img {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.selfTrainingPlusItems p {
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+    opacity: .87;
+    max-width: 367px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.pdfCostWrapper {
+    padding: 60px 193px 0;
+}
+
+.pdfCost {
+    text-align: center;
+    border: 3px solid #e20505;
+    padding: 42px 84px 85px 84px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdfCostTitle {
+    color: #4B4949;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Lato-Black';
+}
+
+.pdfCostPrice {
+    font-size: 35px;
+    font-family: 'Lato-Black';
+    color: #e20505;
+}
+
+.pdfCostBuyButton {
+    background: #fad264;
+    /* width: 361px; */
+    height: 84px;
+    border-radius: 40px;
+    
+    padding: 31px 63px;
+    margin-top: 27px;
+    margin-bottom: 34px;
+}
+
+.pdfCostBuyButton p>a, .pdfCostTimer {
+    font-family: 'Lato-Regular';
+    color: #000;
+    font-size: 18px;
+    
+}
+
+.pdfCostTimer p:nth-of-type(1) {
+    margin-bottom: 57px;
+}
+
+footer {
+    padding-top: 39px;
+    width: 100%;
+    background-image: url('./src/img/footerBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right; */
+}
+
+.footerDivider {
+    width: 2px;
+    height: 85.05px;
+    background-image: url('./src/img/footerDivider.png');
+}
+
+.footerFirst, .footerSecond {
+    font-family: 'Lato-Bold', sans-serif;
+    font-size: 18px;
+}
+
+.footerThird, .footerCopyright {
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+.footerThird {
+    
+    margin-left:auto;
+    opacity: .5395;
+    padding-right: 88px;
+}
+
+.footerCopyright {
+    text-align: center;
+    width: 100%;
+    opacity: .87;
+}
+
+.footerRowItems {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.footerStylesWhite {
+    color: #fff;
+}
+
+.footerStylesYellow {
+    color: #FAD264;
+    text-decoration: none;
+    border-bottom: 1px #FAD264 solid;
+}
+.footerPhoneNumber {
+    font-size: 24px;
+    width: 195px;
+
+}
+
+.footerDivider {
+    margin-left: 78px;
+    margin-right: 55px;
+}
+
+.footerThird p:nth-of-type(3) {
+    text-decoration: underline;
+    /* border-bottom: .5px solid #fff; */
+}
