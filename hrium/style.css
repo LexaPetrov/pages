@@ -11,12 +11,21 @@ a {
     color: #fff;
 }
 
+
 header {
     background-image: url('./src/img/headerBg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     padding-top: 20px;
+}
+
+.logoLine {
+    display: none;
+}
+
+.headerTextContent480 {
+    display: none;
 }
 
 .logoText {
@@ -60,6 +69,7 @@ header {
 .headerTextContent3,
 .headerTextContent4,
 .headerTextContent5,
+.headerTextContent480,
 .headerTextContent6 {
     font-family: 'Lato-Regular';
     font-size: 18px;
@@ -84,7 +94,125 @@ header {
     justify-content: center;
 }
 
+.afterHeaderDivider {
+    background-image: url('./src/img/bg2.jpg');
+    padding-bottom: 54px;
+    background-size: cover; 
+    
+}
 
+.afterHeaderDividerCost {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.afterHeaderDividerCostTitle {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Lato-Medium';
+
+}
+
+.afterHeaderDividerCostPrice {
+    color: #fad264;
+    font-size: 35px;
+    font-family: 'Lato-Black';
+    margin-top: 23px;margin-bottom: 27px;
+}
+
+.afterHeaderDividerCostTimer {
+    font-family: 'Lato-Medium';
+    color: #fff;
+    font-size: 18px;
+}
+
+.afterHeaderDividerSkills {
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   margin-top: 17px;
+}
+
+.diff {
+    padding: 70px 0;
+    background: #fff;
+}
+
+.diffTitle,.diffSecondTitle {
+    font-size: 35px;
+    font-family: 'Lato-Medium';
+    width: 100%;
+    text-align: center;
+    color: #4b4949;
+}
+
+.diffTitle span, .diffSecondTitle span {
+    color: #e20505;
+}
+
+.diffSecondTitle {
+    margin: 60px 0px;
+    width: 100%;
+}
+
+.diffItems {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 36px;
+    margin-bottom: 69px;
+}
+
+.diffItems p {
+   font-size: 18px;
+   color: rgba(0,0,0,.87);
+   font-family: 'Lato-Regular';
+}
+
+.diffItems img {
+    margin-bottom: 16px;
+}
+
+
+.diffDivider {
+    width: 100%;
+    text-align: center;
+}
+
+.diffSecondItems {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.diffSecondItem {
+    border: 2px solid #fad264;
+    width: 367px;
+    padding: 40px 40px 70px 40px;
+}
+
+.diffSecondItemTitle {
+    font-size: 20px;
+    color: rgba(0,0,0,.87);
+    font-family: 'Lato-Bold';
+}
+
+.diffSecondItemText {
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+    color: rgba(0,0,0,.87);
+}
 
 .selfTrainingPlus {
     background: #EBEBEB;
@@ -154,7 +282,7 @@ header {
     color: #e20505;
 }
 
-.pdfCostBuyButton {
+.pdfCostBuyButton, .buyButtonDisabled {
     background: #fad264;
     /* width: 361px; */
     height: 84px;
@@ -165,15 +293,71 @@ header {
     margin-bottom: 34px;
 }
 
-.pdfCostBuyButton p>a, .pdfCostTimer {
+.pdfCostBuyButton p>a, .pdfCostTimer, .buyButtonDisabled p>a {
     font-family: 'Lato-Regular';
     color: #000;
     font-size: 18px;
-    
 }
 
 .pdfCostTimer p:nth-of-type(1) {
     margin-bottom: 57px;
+}
+
+
+.buyButton {
+    transition: box-shadow .3s;
+}
+.buyButton:hover {
+    box-shadow: 0px  10px 10px rgba(0,0,0,.25);
+}
+
+.buyButtonDisabled {
+    background: #cbcbcb;
+}
+
+.mainBlock {
+    background-image: url('./src/img/bg3.jpg');
+    margin-top: 64px;
+    background-size: auto; 
+    width: 100%;
+}
+
+.mainTitle {
+    font-family: 'Lato-Black';
+    font-size: 24px;
+    color: #4b4949;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.mainTitle span {
+    color: #e20505;
+}
+
+.mainBlockContent {
+    display: flex;
+    width: 100%;
+}
+
+.mainBlockContentText {
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+    color: rgba(0,0,0,.87);
+    text-align: left;
+    width: 100%;
+    float: right;
+    display: flex;
+}
+
+.mainBlockContentTextDash  {
+    color: #FAD264;
+    font-size: 34px;
+}
+
+.dashes {
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
 footer {
@@ -233,7 +417,7 @@ footer {
 }
 .footerPhoneNumber {
     font-size: 24px;
-    width: 195px;
+    max-width: 196px;
 
 }
 

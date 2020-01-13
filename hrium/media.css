@@ -4,19 +4,208 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+    .headerImg img {
+        width: 100%;
+    }
+
+    .diffSecondItems {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .diffSecondItem {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 992px) {
-  
+  .headerContentWrapper {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .diffDivider img{
+      width: 100%;
+  }
+
+  .mainBlock {
+      background-size: cover;
+  }
+
+  .mainBlock, .mainBlockContent {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .footerDivider {
+     margin: 0 20px;
+  }
+
+  .footerRowItems {
+      display: flex;
+      justify-content: space-between;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  
+  .selfTrainingPlusItems {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footerRowItems {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  .footerThird {
+      margin: 0; padding: 0;
+  }
+
+  body {
+      margin: 0 auto;
+  }
+
+  .footerDivider {
+      display: none;
+  }
+
+  .footerPhoneNumber {
+      margin: 0 auto;
+  }
+
+  .footerStylesWhite {
+      margin-top: 10px;
+  }
+
+  .mainBlockContent img {
+      width: 540px;
+  }
+
+  .pdfCostWrapper {
+    padding: 0;
+}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
+    .headerTextContent1 {
+        font-size: 40px;
+    }
+
+    .stars img{
+        width: 100%;
+    }
+
+    .pdfCostWrapper {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 481px) {
+  .diff,
+  .selfTrainingPlus,
+  .pdfCostWrapper,
+  .mainBlock,
+  footer {
+      display: none;
+  }
+
+
+
   
+  header, .afterHeaderDivider, .headerContentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .afterHeaderDividerSkills {
+      flex-direction: column;
+  }
+
+  .logoWrapper {
+      margin: 0; padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .logoText {
+      padding: 0 20px;
+      margin-top: 20px;
+
+  }
+
+  .container {
+      width: 230px;
+  }
+
+  .headerTextContent1, .headerTextContent2 {
+      font-size: 20px;
+  }
+
+  .stars img {
+      width: 100%;
+  }
+
+  .headerImg img {
+      width: 100%;
+  }
+
+  .headerDivider {
+        font-size: 16px;
+      padding: 13px 125px;
+  }
+
+  .headerDivider p {
+      margin: 0;
+  }
+
+  .logoText {
+      font-size: 16px;
+      
+  }
+
+  .headerTextContent3,
+  .headerTextContent4,
+  .headerTextContent5,
+    {
+      font-size: 16px;
+  }
+
+  .headerTextContent6 {
+    font-size: 12px;
+    display: none;
+}
+
+.headerTextContent480 {
+    display: inline;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.pdfCostBuyButton   {
+   padding: 0;
+   padding-top: 15px;
+   margin: 24px 0;
+}
+
+.pdfCostBuyButton p {
+    margin: 0;
+}
+
+.afterHeaderDividerCostTimer {
+    font-size: 16px;
+}
+
+.logoLine {
+    display: inline;
+}
+
 }
 
 @media screen and (max-width: 375px) {

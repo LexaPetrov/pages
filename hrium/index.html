@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./fonts.css">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap.min.css" >
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./media.css">
     <script src="./script.js"></script>
@@ -18,7 +17,9 @@
             <div class="row">
                 <div class="logoWrapper">
                     <div class="logo">
+                        <img src="./src/img/logoLine.png" alt="logoLine" class="logoLine">
                         <img src="./src/img//logo.png" alt="logo">
+                        <img src="./src/img/logoLine.png" alt="logoLine" class="logoLine">
                     </div>
                     <div class="logoText">
                         <p>PDF-конспекты для самостоятельного изучения курса</p>
@@ -30,13 +31,14 @@
                     <div class="headerTextContent">
                         <p class="headerTextContent1">ПРЕДСКАЗАТЕЛЬНЫЙ</p>
                         <p class="headerTextContent2">ФЕНШУЙ <span>9</span> ДВОРЦОВ</p>
-                        <p><img src="./src/img/headerStars.png" alt="headerStars"></p>
+                        <p class="stars"><img src="./src/img/headerStars.png" alt="headerStars"></p>
                         <span class="headerTextContent3">Освойте базовые навыки системы прогностики по 9 дворцам, <br></span>
                         <span class="headerTextContent4">ЧТОБЫ ПРОГНОЗИРОВАТЬ И КОРРЕКТИРОВАТЬ СВОЕ БУДУЩЕЕ</span>
                         <p class="headerTextContent5" >ДЛЯ ПОЛУЧЕНИЯ ДЕНЕГ, ЗДОРОВЬЯ И УДАЧИ</pclass="headerTextContent2">
                         <p class="headerTextContent6">Без обратной связи от Татьяны Панюшкиной и домашних заданий.</p>
                     </div>
-                    <div><img src="./src/img/headerImg.png" alt="headerImg"></div>
+                    <div class="headerImg"><img src="./src/img/headerImg.png" alt="headerImg"></div>
+                    <p class="headerTextContent480">Без обратной связи от Татьяны Панюшкиной и домашних заданий.</p>
                 </div>
                
             </div>
@@ -47,7 +49,146 @@
             </div>
         </section>
     </header>
+
+    <section class="afterHeaderDivider">
+        <div class="container">
+            <div class="row">
+                <div class="afterHeaderDividerSkills">
+                    <div>
+                        <img src="./src/img/skill1.png" alt="skill1">
+                        <p>
+                            Поймете основные положения
+9-Дворцов и взаимодействие стихий
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./src/img/skill2.png" alt="skill2">
+                        <p>
+                            Научитесь делать активации в помещениях для корректировки и уничтожения негативных энергий, для привлечения удачи, денег, здоровья, счастья, хороших отношений и т. д.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./src/img/skill3.png" alt="skill3">
+                        <p>
+                            Научитесь прогнозировать будущее человека по дате его рождения
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="afterHeaderDividerCost">
+                    <div>
+                        <span class="afterHeaderDividerCostTitle">Стоимость PDF-конспектов <br></span>
+                    <span class="afterHeaderDividerCostPrice">2 900 РУБ.</span>
+                    </div>
+                    <div class="pdfCostBuyButton buyButton" id="buyButton">
+                        <p><a href="javascript: void(0)" onclick="toBuy()" id="buyButtonLink">ПРИОБРЕСТИ КОНСПЕКТЫ</a></p>
+                    </div>
+                    <div class="afterHeaderDividerCostTimer">
+                        <p>
+                            Заказать и оплатить комплект конспектов можно в течение 36 часов
+                        </p>
+                        <p>
+                            ДО КОНЦА ПРЕДЛОЖЕНИЯ ОСТАЛОСЬ:
+                        </p>
+                        <div>
+                            <span class="timerHour">35</span><span> :</span>
+                            <span class="timerMin">59</span><span> :</span>
+                            <span class="timerSec">59</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
     
+    <section class="diff">
+        <div class="container">
+            <div class="row">
+                <div class="diffTitle">
+                    <p><span>В ЧЕМ ОТЛИЧИЕ</span> PDF-КОНСПЕКТОВ <br>
+                        ОТ "ЗАОЧНОЙ" ВЕРСИИ КУРСА?</p>
+                </div>
+                <div class="diffItems">
+                    <div>
+                        <div><img src="./src/img/diff_V.png" alt="diff_V"></div>
+                        <div>
+                            <p>
+                                Вы получаете конспекты <br>
+первых трех модулей курса <br> "Предсказательный фэншуй 9 Дворцов"
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div><img src="./src/img/diff_X.png" alt="diff_X"></div>
+                        <div>
+                            <p>
+                                Видео-записи уроков отсутствуют,<br>
+без обратной связи от Татьяны <br> Панюшкиной и домашних заданий.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div><img src="./src/img/diff_V.png" alt="diff_V"></div>
+                        <div>
+                            <p>
+                                Цена комплекта в 15 раз меньше,<br>
+                                чем полная стоимость пакета "Мастер", <br> конспекты которого Вы получите.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="diffDivider">
+                    <img src="./src/img/divider.png" alt="divider">
+                </div>
+            </div>
+            <div class="row">
+                <div class="diffSecondTitle">
+                    <p><span>КОНСПЕКТЫ УРОКОВ,</span> КОТОРЫЕ ВЫ ПОЛУЧИТЕ</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="diffSecondItems">
+                    <div class="diffSecondItem">
+                        <p class="diffSecondItemTitle">
+                            ПРОГНОЗИРОВАНИЕ <br> БУДУЩЕГО ПО ГОДУ <br> РОЖДЕНИЯ
+                        </p>
+                        <img src="./src/img/diffSecondItem1.png" alt="diffSecondItem1" class="diffSecondItemImg">
+                        <p class="diffSecondItemText">
+                            Вы овладели навыками прогнозирования будущего человека. По году его рождения можете определять сферы деятельности, которые дают человеку максимальную финансовую выгоду. 
+                        </p>
+                    </div>
+                    <div class="diffSecondItem">
+                        <p class="diffSecondItemTitle">
+                            ПРОГНОЗИРОВАНИЕ <br> БУДУЩЕГО ПО ПОЛНОЙ <br>
+ДАТЕ РОЖДЕНИЯ
+                        </p>
+                        <img src="./src/img/diffSecondItem2.png" alt="diffSecondItem2" class="diffSecondItemImg">
+                        <p class="diffSecondItemText">
+                            Вы прогнозируете будущее в конкретном помещении с учетом энергетики пространства.
+Также расшифровываете характер людей по годам рождения.
+                        </p>
+                    </div>
+                    <div class="diffSecondItem">
+                        <p class="diffSecondItemTitle">
+                            КОНСУЛЬТАНТ <br>
+С НЕБОЛЬШИМ <br>
+ОПЫТОМ
+                        </p>
+                        <img src="./src/img/diffSecondItem3.png" alt="diffSecondItem3" class="diffSecondItemImg">
+                        <p class="diffSecondItemText">
+                            Вы делаете активации
+для корректировки и уничтожения негативных энергий, 
+для привлечения удачи, денег, здоровья, счастья, хороших отношений и т. д.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="selfTrainingPlus">
         <div class="container">
             <div class="row">
@@ -92,15 +233,15 @@
         </div>
     </section>
 
-    <section class="pdfCostWrapper">
+    <section class="pdfCostWrapper" id="pdfcost">
         <div class="container">
             <div class="pdfCost">
                 <div>
                     <span class="pdfCostTitle">Стоимость PDF-конспектов <br></span>
                 <span class="pdfCostPrice">2 900 РУБ.</span>
                 </div>
-                <div class="pdfCostBuyButton">
-                    <p><a href="#">ПРИОБРЕСТИ КОНСПЕКТЫ</a></p>
+                <div class="pdfCostBuyButton buyButton1" id="buyButton1">
+                    <p><a href="#" id="buyButtonLink">ПРИОБРЕСТИ КОНСПЕКТЫ</a></p>
                 </div>
                 <div class="pdfCostTimer">
                     <p>
@@ -108,9 +249,36 @@
                     </p>
                     <div>
                         <span>ОСТАЛОСЬ ВРЕМЕНИ: </span>
-                        <span class="timerHour">35</span><span> :</span>
-                        <span class="timerMin">59</span><span> :</span>
-                        <span class="timerSec">59</span>
+                        <span class="timerHour1">35</span><span> :</span>
+                        <span class="timerMin1">59</span><span> :</span>
+                        <span class="timerSec1">59</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mainBlock">
+        <div class="container">
+            <div class="row">
+                <div class="mainTitle">
+                    <p>ПОСЛЕ ОПЛАТЫ ВЫ ПОЛУЧАЕТЕ <span>ДОСТУП К ЛИЧНОМУ КАБИНЕТУ.</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mainBlockContent">
+                    <div>
+                        <img src="./src/img/main.png" alt="main">
+                    </div>
+                    <div class="mainBlockContentText">
+                        <div class="dashes"> 
+                            <span class="mainBlockContentTextDash">—</span>
+                            <span class="mainBlockContentTextDash"><br><br>—</span>
+                        </div>
+                        <div>
+                            <p><br>В личном кабинете выложены конспекты уроков. Их нужно выполнять пошагово. </p>
+                            <p><br>Формат курса подразумевает самостоятельную работу без обратной связи от Татьяны Панюшкиной и без проверки заданий.</p>
+                        </div>
                     </div>
                 </div>
             </div>
