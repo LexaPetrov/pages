@@ -241,7 +241,7 @@
                 <span class="pdfCostPrice">2 900 РУБ.</span>
                 </div>
                 <div class="pdfCostBuyButton buyButton1" id="buyButton1">
-                    <p><a href="#" id="buyButtonLink">ПРИОБРЕСТИ КОНСПЕКТЫ</a></p>
+                    <p><a href="#" onclick="openbox('Wrapp');return false;" id="buyButtonLink">ПРИОБРЕСТИ КОНСПЕКТЫ</a></p>
                 </div>
                 <div class="pdfCostTimer">
                     <p>
@@ -317,5 +317,11 @@
         </div>
        
     </footer>
+
+    <div id="Wrapp" style="display:none">
+        <div id='tt'><div class="close" onclick="openbox('Wrapp')">x</div>
+             купить конспекты
+        </div>
+    </div>
 </bodyonload="time()">
 </html>
