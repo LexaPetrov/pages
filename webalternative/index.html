@@ -19,8 +19,8 @@
     <script src="./src/js/script.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
-<body>
-    <header>
+<body id="body">
+    <header id="header">
         <div class="container header__container">
             <div class="header__item header__item1">
                 <img src="./src/img/header__logo.png" alt="header__logo">
@@ -41,7 +41,8 @@
             </div>
         </div>
     </header>
-    <section class="ecommerce">
+
+    <section class="ecommerce toblur" id="ecommerce">
         <div class="ecommerce__text">
             <p class="ecommerce__text1">
                 <img src="./src/img/ecommerce__img__shoppingcart.png" alt="ecommerce__img__shoppingcart">
@@ -76,9 +77,7 @@
         <p class="ecommerce__text__mobile">Ответим на любой вопрос</p>
     </section>
 
-
-
-    <section class="howwework">
+    <section class="howwework toblur" id="howwework">
         <div class="howwework__title">
             <p class="howwework__title__text">
                 КАК МЫ РАБОТАЕМ НАД ВАШИМ ПРОЕКТОМ
@@ -267,7 +266,7 @@
         </div>
     </section>
 
-    <section class="payments">
+    <section class="payments toblur" id="payments">
         <div class="container payments__container">
             <div class="payments__main">
                 <div class="payments__img">
@@ -295,7 +294,7 @@
         </div>
     </section>
 
-    <section class="cases"> 
+    <section class="cases toblur" id="cases"> 
         <div class="container cases__container">
             <div class="cases__title cases__container__item1">
                 <p id="cases__text__title">кейсы говорят за себя</p>
@@ -364,7 +363,7 @@
         </div>
     </section>
 
-    <section class="clients">
+    <section class="clients toblur" id="clients">
         <div class="clients__title">
             <p class="clients__title__text">НАШИ КЛИЕНТЫ</p>
         </div>
@@ -405,7 +404,7 @@
         </div>
     </section>
 
-    <section class="request">
+    <section class="request toblur" id="request" >
         <div class="request__text">
             <div class="request__text__item1">
                 <p class="request__text__item1__text">
@@ -459,7 +458,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="footer"> 
         <div class="container footer__container">
             <div class="footer__container-item item__logo footer__item1">
                 <img class="footer__item1__img__logo" src="./src/img/footer__logo.png" alt="footer__logo">
@@ -485,7 +484,6 @@
     </footer>
 
     <div id="pop__up__wrapper" class="pop__up" style="display:none">
-        
        <div class="close__wrapper">
         <div class="close" onclick="Openbox('pop__up__wrapper')">
             +

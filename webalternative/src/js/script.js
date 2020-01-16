@@ -7,9 +7,25 @@ const Openbox = id => {
     let div = document.getElementById(id)
     if (div.style.display == 'block') {
         div.style.display = 'none'
+        document.getElementById('ecommerce').style.filter = "none"
+        document.getElementById('howwework').style.filter = "none"
+        document.getElementById('header').style.filter = "none"
+        document.getElementById('payments').style.filter = "none"
+        document.getElementById('cases').style.filter = "none"
+        document.getElementById('clients').style.filter = "none"
+        document.getElementById('request').style.filter = "none"
+        document.getElementById('footer').style.filter = "none"
     }
     else {
         div.style.display = 'block'
+        document.getElementById('ecommerce').style.filter = "blur(3px)"
+        document.getElementById('howwework').style.filter = "blur(3px)"
+        document.getElementById('header').style.filter = "blur(3px)"
+        document.getElementById('payments').style.filter = "blur(3px)"
+        document.getElementById('cases').style.filter = "blur(3px)"
+        document.getElementById('clients').style.filter = "blur(3px)"
+        document.getElementById('request').style.filter = "blur(3px)"
+        document.getElementById('footer').style.filter = "blur(3px)"
     }
 }
 
@@ -21,11 +37,11 @@ document.addEventListener("DOMContentLoaded", () => {
         : null
 })
 
-document.addEventListener('click', function (e) {
-    if (e.target.classList.contains('number')) {
-       document.getElementById('number').style.color = '#EF8B54'
-    }
-});
+// document.addEventListener('click', function (e) {
+//     if (e.target.classList.contains('number')) {
+//        document.getElementById('number').style.color = '#EF8B54'
+//     }
+// });
 
 const clients = [
     './src/img/clients__item__img1.png',

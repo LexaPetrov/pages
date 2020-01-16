@@ -45,7 +45,7 @@ div.close:hover {
 
 .pop__up {
   z-index: 10000;
-  top: 0;
+  top: -20%;
   left: 0;
   position: fixed;
   width: 100%;
