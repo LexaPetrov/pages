@@ -1,0 +1,56 @@
+.payments__container {
+    background-color: #171718;
+    background-image: url('../img/paymants__bg.png');
+    padding: 190px 366px 123px 366px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.payments__main {
+    display: flex;
+    margin: 0;padding: 0;
+    width: 100%;
+}
+
+.payments__text {
+    color: #fff;
+    margin-top: 135px;
+}
+
+.payments__text__desc {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Monsterrat-Regular';
+}
+
+.payments__text__title {
+    font-size: 26px;
+    line-height: 45px;
+    font-family: "Monsterrat-SemiBold";
+}
+
+.payments__text__img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payments__links {
+    font-size: 18px;
+    font-family: "Monsterrat-Regular";
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.payments__links_link{
+    color: #fff;
+    opacity: 0.4;
+    text-decoration: underline;
+    margin-right: 100px;
+}
+
+.payments__links_link:hover {
+    color: #EF8B54;
+    opacity: 1;
+}

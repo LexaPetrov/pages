@@ -1,0 +1,45 @@
+.footer__container {
+    width: 100%;
+    background: #202020;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 54px 0px 69px 0px;
+}
+
+footer {
+    width: 100%;
+    margin: 0; padding: 0;
+}
+
+.footer__container-item {
+    color: #fff;
+    margin-left: 114px;
+    margin-right: 114px;
+}
+
+.footer__container-item a {
+    color: #fff;
+}
+
+.footer__item__title {
+    font-family: 'Monsterrat-SemiBold';
+    font-size: 18px;
+}
+
+.footer__item__text {
+    font-family: 'Monsterrat-Light';
+    font-size: 16px;
+}
+
+.footer__item4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__item4__img__arrow {
+    padding-left: 23px;
+    padding-right: 27px;
+}

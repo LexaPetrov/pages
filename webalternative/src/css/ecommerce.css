@@ -1,0 +1,83 @@
+.ecommerce {
+  max-width: 100%;
+  background: #161616;
+  background-image: url("../img/ecommerce__bg.png");
+  background-size: 1920px 1100px;
+  padding-left: 255px;
+  background-repeat: no-repeat;
+  padding-right: 255px;
+  padding-top: 98px;
+  display: flex;
+}
+
+.ecommerce__text1 {
+  font-size: 22.67px;
+  font-family: "Montserrat-Bold";
+  color: #ff843e;
+}
+
+.ecommerce__text2 {
+  font-size: 52px;
+  color: #fff;
+  font-family: "Montserrat-Bold";
+}
+
+.ecommerce__text3 {
+  font-size: 20px;
+  font-family: "Monsterrat-Regular";
+  color: #fff;
+}
+
+.ecommerce__text4 {
+    font-size: 14px;
+    font-family: "Monsterrat-SemiBold";
+    color: #fff;
+}
+
+.ecommerce__text5 {
+    display: flex;
+    text-align: center;
+    width: 325px;
+    height: 65px;
+    justify-content: space-around;
+    background: #FF834E;
+    align-items: center;
+    /* margin-top: 280px; */
+  }
+  .ecommerce__text5__text {
+      font-size: 18px;
+      color: #fff;
+      font-family: "Monsterrat-Regular";
+      margin-right: 97px;
+      padding-left: 21px;
+  }
+
+  .ecommerce__text5__button {
+    background: #DE774B;
+    height: 100%;
+    display: flex;
+    width: 62px;
+    flex-wrap: nowrap;
+    align-items: center; 
+  }
+  
+  .ecommerce__text5__button__img {
+    margin-left: 13px;
+  }
+
+  .ecommerce_text_wrapper {
+      margin-top: 280px;
+  }
+
+  .ecommerce__text5:hover, .ecommerce__text5__button:hover{
+    cursor: pointer;
+  }
+
+  .ecommerce__text__mobile {
+    display: none;
+    font-size: 12px;
+    font-family: "Monsterrat-Light";
+    color: #fff;
+    width: 100%;
+    text-align: center;
+  }
