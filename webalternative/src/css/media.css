@@ -3,6 +3,7 @@
     display: none;
   }
 
+
   #request__text__item1__mobile {
     display: none;
   }
@@ -508,6 +509,12 @@
   .payments {
     display: none;
   }
+  
+
+  .mob_req {
+    display: flex;
+  }
+
   .header__container {
     padding: 20px;
     display: flex;
@@ -761,6 +768,10 @@
   .g-recaptcha,
   .request__text__item1 {
     display: none;
+  }
+
+  .request {
+    padding-bottom: 84px;
   }
 
   #request__text__item1__mobile {

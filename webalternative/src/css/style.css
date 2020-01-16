@@ -300,3 +300,7 @@ summary::-webkit-details-marker {
 summary:focus {
   outline: none;
 }
+
+.mob_req {
+  display: none;
+}
