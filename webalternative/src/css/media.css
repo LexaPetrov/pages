@@ -166,6 +166,10 @@
   .click {
     margin-left: 95px;
   }
+  
+  .header__item3 {
+	  margin: 0;
+  }
 
   .cases__item {
     width: 250px;
